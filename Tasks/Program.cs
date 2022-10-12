@@ -33,8 +33,8 @@ m = 3, n = 4.
 2 1 6 2 -> да
 
 Дополнительная задача 2 (56): Вывести первые n строк треугольника Паскаля. 
-    Реализовать вывод в виде равнобедренного треугольника.
-    N = 7 -> https://ibb.co/yWPZbG7
+Реализовать вывод в виде равнобедренного треугольника.
+N = 7 -> https://ibb.co/yWPZbG7
 */
 Console.Clear();
 Console.Write("Введите номер задачи: ");
@@ -281,9 +281,9 @@ void Task56()
     Console.Clear();
     void GetPaskal(int value)
     {
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < value; i++)
         {
-            for (int j = 0; j <= n - i; j++)
+            for (int j = 0; j <= value - i; j++)
             {
                 Console.Write(" " + " ");
             }
